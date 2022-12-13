@@ -1,6 +1,6 @@
 ## Ultra-conserved elements (UCEs) identification
 
-![image](https://github.com/NiniWang/Ultra-conserved-elements-identification/blob/master/image/Fig1_pipeline_UCEs.pdf)
+![image](https://github.com/NiniWang/Ultra-conserved-elements-identification/blob/master/image/pipeline_UCEs.jpg)
 
 #### 1, Build the ancestral sequences with high quality genomes
 
