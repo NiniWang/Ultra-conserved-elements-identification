@@ -2,7 +2,7 @@
 
 ![image](https://github.com/NiniWang/Ultra-conserved-elements-identification/blob/master/image/pipeline_UCEs.jpg)
 
-#### 1, Build the ancestral sequences with high quality genomes
+#### 1, Build the ancestral sequences with high quality genomes from different branches
 
 ```shell
 prequel --no-probs --seqs Avian rf_$chr.fa --msa-format MAF multiz_mammal_$chr.maf nonconserved-4d.cn.mod $chr
@@ -66,7 +66,12 @@ python merge.filter.bed.list.iden.py -l merge_filter.list -o merge_candidateUCEs
 
 ##### 5.3 The elements which are 100% identical with at least one branch and with at least 80% identity across all branches, were defined as final UCEs longer than 200bp.
 
+ The final UCEs are obtained by filtering according to the different branches of the phylogenetic tree using the identity matrix file.
 
 
 
 
+
+**Reference:** 
+
+GC-biased gene conversion drives accelerated evolution of ultra-conserved elements in mammalian and avian genomes (unpublished, 2022)
