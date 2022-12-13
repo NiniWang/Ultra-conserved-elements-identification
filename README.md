@@ -1,6 +1,6 @@
 ## Ultra-conserved elements (UCEs) identification
 
-![image-20221211154504496](C:\Users\Rainbow\AppData\Roaming\Typora\typora-user-images\image-20221211154504496.png)
+
 
 #### 1, Build the ancestral sequences with high quality genomes
 
@@ -65,3 +65,8 @@ python merge.filter.bed.list.iden.py -l merge_filter.list -o merge_candidateUCEs
 ```
 
 ##### 5.3 The elements which are 100% identical with at least one branch and with at least 80% identity across all branches, were defined as final UCEs longer than 200bp.
+
+
+
+
+
