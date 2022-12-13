@@ -1,11 +1,15 @@
 ## Ultra-conserved elements (UCEs) identification
 
+This pipeline is used in the paper for identifying UCEs based on the multi-species genome alignment result.
+
+
+
 ![image](https://github.com/NiniWang/Ultra-conserved-elements-identification/blob/master/image/pipeline_UCEs.jpg)
 
 #### 1, Build the ancestral sequences with high quality genomes from different branches
 
 ```shell
-prequel --no-probs --seqs Avian rf_$chr.fa --msa-format MAF multiz_mammal_$chr.maf nonconserved-4d.cn.mod $chr
+prequel --no-probs multiz_mammal.fa nonconserved-4d.cn.mod ancestor
 ```
 
 #### 2, Mimic all the genomes to  k-mers with length of 50bp and 10bp bootstraps
