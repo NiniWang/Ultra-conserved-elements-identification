@@ -10,6 +10,7 @@ This pipeline is used in the paper for identifying UCEs based on the multi-speci
 
 ```shell
 prequel --no-probs multiz_mammal.fa nonconserved-4d.cn.mod ancestor
+# tree model called "nonconserved-4d.cn.mod" (built by phyloFit)
 ```
 
 #### 2, Mimic all the genomes to  k-mers with length of 50bp and 10bp bootstraps
