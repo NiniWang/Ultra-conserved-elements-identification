@@ -79,4 +79,4 @@ python merge.filter.bed.list.iden.py -l merge_filter.list -o merge_candidateUCEs
 
 **Reference:** 
 
-GC-biased gene conversion drives accelerated evolution of ultra-conserved elements in mammalian and avian genomes (unpublished, 2022)
+GC-biased gene conversion drives accelerated evolution of ultra-conserved elements in mammalian and avian genomes (2023)
